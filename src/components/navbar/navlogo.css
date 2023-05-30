@@ -1,0 +1,115 @@
+.navbarOuterBox{
+    display: flex ;
+    justify-content: space-between;
+}
+.searchBar{
+    width: 30vw;
+    height: 2.5rem;
+    background-color: #fafafa;
+    border-color: gray;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    color:gray;
+    padding-left: 1rem;
+    border-width: 0.1rem;
+}
+.searchBox{
+    display: flex;
+}
+.searchBarcover{
+    display: flex;
+}
+.searchIcon{
+    height: 2.4rem;
+    width: 4rem;
+    /* padding-left: 2rem;
+    padding-top: 0.1rem; */
+    text-align: center;
+    
+    border: 0.1rem solid gray;
+    background-color: #fafafa;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    padding-top: 0.25rem;
+   
+}
+
+.searchMike{
+    padding-left: 0.8rem;
+    padding-top: 0.6rem;
+    height: 5rem;
+    width: 5rem;
+}
+.navThirdComponent{
+    display: flex;
+}
+.emailidIcon{
+    width: 3rem;
+    margin: 0.5rem;
+    
+}
+.navFirstComponent{
+    display: flex;
+}
+
+.searchMike, .menuIcon, .addVideoIcon,.notificationIcon{
+  transition: background-color 0s;
+  height: 2rem;
+  /* width: 2.25rem; */
+  padding: 0.25em;
+  border-radius: 60%;
+}
+.menuIcon{
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+}
+.searchMike{
+    margin-left: 2rem;
+    padding-top: 0.5rem;
+}
+.menuIcon:hover , .searchMike:hover, .addVideoIcon:hover,.notificationIcon:hover{
+    background-color: rgba(0, 0, 0, .15);
+    /* pointer cursor on hover */
+    cursor: pointer;
+ 
+}
+.logoImage{
+    width: 6rem;
+    height: 4.5rem;
+    margin-top: -0.5px;
+}
+.searchBar{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.addVideoIcon, .notificationIcon{
+    margin: 0.5rem;
+    padding-top: 0.5rem;
+}
+.buttonMenu{
+    border: none;
+    background-color: #fafafa;
+}
+.youtubeLogo{
+    margin-left: 5rem;
+}
+
+@media screen and (max-width: 1100px) {
+    .navSecondComponent{
+        margin-left: 10vw;
+        margin-top: 0.5rem;
+    }
+    .searchMike, .menuIcon, .addVideoIcon,.notificationIcon{
+       margin-left: 0px;
+       margin-right: 0px;
+    }
+    .navThirdComponent{
+        margin-left: -10vw;
+    }
+    .searchBar{
+        height: 2rem;
+    }
+    .searchIcon{
+        height: 1.9rem;
+    }
+}
